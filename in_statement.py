@@ -5,7 +5,7 @@
 # 1.  Vérification de l'existence d'un élément
 fruits = ["pomme", "banane", "cerise"]
 print("pomme" in fruits) # True
-print("orange" in fruits)
+print("orange" in fruits) # False
 
 # 2. Utilisation dans une boucle for
 for fruit in fruits:
