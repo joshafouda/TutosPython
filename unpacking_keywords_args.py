@@ -4,9 +4,8 @@
 def named(**kwargs):
     print(kwargs)
 
-#named(name="Bob", age=25)
-
-#named(name="Bob", age=25, activity="Data Scientist")
+named(name="Bob", age=25)
+named(name="Bob", age=25, activity="Data Scientist")
 
 # 2. Cas concret d'utilisation
 '''
@@ -43,4 +42,4 @@ send_email(
    )
 '''
 
-send_email("user@example.com", "Meeting Reminder")
+#send_email("user@example.com", "Meeting Reminder")
